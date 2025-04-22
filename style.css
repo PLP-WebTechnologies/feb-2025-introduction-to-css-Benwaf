@@ -1,0 +1,111 @@
+/* Type Selector */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 40px;
+  }
+  /* Styling an image */
+.styled-image {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #94d2bd;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+  }
+
+  /* ID Selector for the table */
+#contact-table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table headers */
+  #contact-table th {
+    background-color: #0a9396;
+    color: white;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Table cells */
+  #contact-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Zebra striping */
+  #contact-table tr:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+  /* Container styling */
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading */
+  .form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form elements */
+  #registration-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #registration-form input[type="text"],
+  #registration-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Radio and checkbox groups */
+  .radio-group,
+  .checkbox-group {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .radio-group label,
+  .checkbox-group label {
+    display: block;
+    margin-top: 5px;
+    font-weight: normal;
+  }
+  
+  /* Submit button */
+  #registration-form button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 12px 25px;
+    font-size: 16px;
+    color: white;
+    background-color: #0077b6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #registration-form button:hover {
+    background-color: #023e8a;
+  }
